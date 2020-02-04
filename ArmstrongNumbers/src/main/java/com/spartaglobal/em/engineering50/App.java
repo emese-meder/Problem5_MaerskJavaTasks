@@ -12,7 +12,7 @@ Please write the unit tests for your solution using any of the unit testing fram
 public class App 
 {
     public static void main( String[] args ) {
-        CubeOfDigits cubeOfDigits = new CubeOfDigits();
-        System.out.println(cubeOfDigits.getDigitsCubed(138));
+        ArmstrongNumber armstrongNumber = new ArmstrongNumber();
+        System.out.println(armstrongNumber.isArmstrongNumber(153));
     }
 }

@@ -6,11 +6,16 @@ For example, 153 is an Armstrong number because of 153= 1+ 125+27, which is equa
 You need to write a program to check if the given number is Armstrong number or not.
 Please write the unit tests for your solution using any of the unit testing framework.
  */
-/*
+
 public class ArmstrongNumber {
 
     public boolean isArmstrongNumber(int number){
+        CubeOfDigits cubeOfDigits = new CubeOfDigits();
+        if (number >= 0 && number == cubeOfDigits.getDigitsCubed(number)){
+            return true;
+        }else{
+            return false;
+        }
 
     }
 }
-*/

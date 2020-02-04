@@ -31,6 +31,6 @@ public class TestCubeOfDigits {
     public void testIfNumberIsNegativeThenItIgnoresMinusSign(){
         assertEquals( 8+27, cubeOfDigits.getDigitsCubed(-23));
     }
-    
+
 }
 
