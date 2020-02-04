@@ -13,6 +13,6 @@ public class App
 {
     public static void main( String[] args ) {
         CubeOfDigits cubeOfDigits = new CubeOfDigits();
-        System.out.println(Arrays.toString(cubeOfDigits.getDigitsCubed(138)));
+        System.out.println(cubeOfDigits.getDigitsCubed(138));
     }
 }

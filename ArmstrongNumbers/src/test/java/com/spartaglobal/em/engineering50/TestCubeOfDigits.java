@@ -7,9 +7,30 @@ public class TestCubeOfDigits {
 
     CubeOfDigits cubeOfDigits = new CubeOfDigits();
 
-    /*@Test
-    public void testCubeOf2Is8(){
-        assertEquals(new int[]{8}, cubeOfDigits.getDigitsCubed(2));
+    @Test
+    public void testForSingleDigit(){
+        assertEquals(8, cubeOfDigits.getDigitsCubed(2));
+    }
 
-    }*/
+    @Test
+    public void testForDoubleDigit(){
+        assertEquals(8+27, cubeOfDigits.getDigitsCubed(23));
+    }
+
+    @Test
+    public void testForLargeNumber(){
+        assertEquals(8*3+27 +125*3 + 64*2, cubeOfDigits.getDigitsCubed(235552244));
+    }
+
+    @Test
+    public void testIfNumberContainsZero(){
+        assertEquals(8+27, cubeOfDigits.getDigitsCubed(203));
+    }
+
+    @Test
+    public void testIfNumberIsNegativeThenItIgnoresMinusSign(){
+        assertEquals( 8+27, cubeOfDigits.getDigitsCubed(-23));
+    }
+    
 }
+
