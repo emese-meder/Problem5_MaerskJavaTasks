@@ -25,9 +25,9 @@
 
 ## Highlights
 
-* Code Coverage on ArmstronNumber class methods: 100% lines: 100%.
+* Code Coverage on ArmstronNumber class: methods: 100% lines: 100%.
 
-* Code Coverage on CubeOfDigits class methods: 100% lines: 87%.
+* Code Coverage on CubeOfDigits class: methods: 100% lines: 87%.
 
 ## Improvements
 
