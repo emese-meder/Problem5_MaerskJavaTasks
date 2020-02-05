@@ -1,6 +1,11 @@
 # Problem 5 - Armstrong Numbers
 
 * Number Five of the six java coding challenges for beginners by Maersk for Sparta Global Academy.
+
+A number is called an Armstrong number if it is equal to the cube of its every digit. For example, 153 is an Armstrong number because of 153= 1+ 125+27, which is equal to 1^3+5^3+3^3. You need to write a program to check if the given number is Armstrong number or not.
+
+Please write the unit tests for your solution using any of the unit testing framework.
+
 ## Instructions to build and run the code
 
     1. Open the project in Intellij
@@ -25,7 +30,7 @@
 
 ## Highlights
 
-* Code Coverage on ArmstronNumber class: methods: 100% lines: 100%.
+* Code Coverage on ArmstrongNumber class: methods: 100% lines: 100%.
 
 * Code Coverage on CubeOfDigits class: methods: 100% lines: 87%.
 
